@@ -11,16 +11,13 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <body>
-
-
-
+<div class="jumbotron">
+  <h1 class="display-4">MovieHub!</h1>
+  <h3 class="text-center">Search For Any Movie.....</h3>
+</div>
 <input type="text" name = "moviename" id = "name">
-	
       <button onClick="getData()">Search</button>
       <script type="text/javascript" src="function.js"></script>
-     
           <p id="output"></p>
-
-  
-</body>
+ </body>
 </html>
