@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Favourites List....</h1>
+<h1>Movie.....</h1>
 </body>
 </html>

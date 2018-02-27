@@ -24,7 +24,8 @@ public class MovieServlet extends HttpServlet {
 		
 		String movie = request.getParameter("moviename");
 		PrintWriter out=response.getWriter();
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		out.println(movie);
+		//response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
 
 	/**
